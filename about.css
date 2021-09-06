@@ -1,0 +1,14 @@
+.div-style {
+    color: blue;
+    font-size: 2rem;
+    margin: 1rem auto;
+    border: 1px solid red;
+    padding: 5px 10px; 
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {   
+    .div-style {
+        width: 50%;    
+    }
+}
